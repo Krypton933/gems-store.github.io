@@ -1,0 +1,1220 @@
+@font-face {
+	font-family: 'lilita';
+	src: url("../fonts/LilitaOne-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'cond';
+	src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+::-webkit-scrollbar-track {
+	background-color: #343434
+}
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	background-color: #141414;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: #000;
+}
+::-webkit-scrollbar{ width: 6px; }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-image: url('../img/background.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+header {
+	width: 100%;
+	height: 1px;
+}
+
+header>div#head {
+	position: relative;
+	width: 75%;
+	margin-left: 12.5%;
+
+}
+
+header>div#head>span#title {
+	position: absolute;
+	margin-top: 2%;
+	font-family: 'lilita';
+	font-size: 1.5vw;
+	color: #FFFF00;
+}
+
+header>div#head>a {
+	position: absolute;
+	margin-top: 2.5%;
+	font-family: 'cond';
+	font-size: 0.9vw;
+	text-decoration: none;
+	color: #FFF;
+	transition: 0.15s linear;
+}
+
+header>div#head>a#a1 {
+	left: 18%;
+}
+
+header>div#head>a#a2 {
+	left: 25%;
+}
+
+header>div#head>a#a3 {
+	left: 31.4%;
+}
+
+header>div#head>a#a4 {
+	left: 39.6%;
+}
+
+header>div#head>a#a5 {
+	left: 48.5%;
+}
+
+header>div#head>a#a6 {
+	left: 56.2%;
+}
+
+header>div#head>a#a7 {
+	left: 92.5%;
+	color: #FFFF00;
+}
+
+header>div#head>a:hover {
+	color: #FFFF00;
+}
+
+header>div#head>a#a7:hover {
+	color: #FFF;
+}
+
+main>div#box {
+	position: relative;
+	margin-top: 10%;
+	width: 75%;
+	margin-left: 12.5%;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+main>div#box>img {
+	width: 11.15%;
+	padding: 2% 3% 15% 3%;
+	
+}
+
+main>div#box .i {
+	width: 10.645%;
+	padding: 2% 3% 15% 3%;
+}
+
+
+main>div#box>img#i4 {
+	width: 10.14%;
+}
+
+main>div#box>img#i5 {
+	width: 10.14%;
+}
+
+main>div#box>img#i6 {
+	width: 10.14%;
+}
+
+
+
+
+
+
+
+
+
+main>div#box>span {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFFF00;
+	top: 15.5%;
+}
+
+main>div#box>span#s1 {
+	left: 3%;
+}
+
+main>div#box>span#s2 {
+	left: 20%;
+}
+
+main>div#box>span#s3 {
+	left: 37%;
+}
+
+main>div#box>span#s4 {
+	left: 54.5%;
+}
+
+main>div#box>span#s5 {
+	left: 70.6%;
+}
+
+main>div#box>span#s6 {
+	left: 86.6%;
+}
+
+main>div#box>span#s11 {
+	left: 3%;
+	top: 51.5%;
+}
+
+main>div#box>span#s12 {
+	left: 20%;
+	top: 51.5%;
+}
+
+main>div#box>span#s13 {
+	left: 37%;
+	top: 51.5%;
+}
+
+main>div#box>span#s14 {
+	left: 54.5%;
+	top: 51.5%;
+}
+
+main>div#box>span#s15 {
+	left: 70.6%;
+	top: 51.5%;
+}
+
+main>div#box>span#s16 {
+	left: 86.6%;
+	top: 51.5%;
+}
+
+main>div#box>span#s21 {
+	left: 3%;
+	top: 82.5%;
+}
+
+main>div#box>span#s22 {
+	left: 20%;
+	top: 82.5%;
+}
+
+main>div#box>span#s23 {
+	left: 37%;
+	top: 82.5%;
+}
+
+main>div#box>span#s24 {
+	left: 54.5%;
+	top: 82.5%;
+}
+
+main>div#box>span#s25 {
+	left: 70.6%;
+	top: 82.5%;
+}
+
+main>div#box>span#s26 {
+	left: 86.6%;
+	top: 82.5%;
+}
+
+
+
+main>div#box>span#ns1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 3%;
+	top: 17.5%;
+}
+
+main>div#box>span#ns2 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 20%;
+	top: 17.5%;
+}
+
+main>div#box>span#ns3 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 37%;
+	top: 17.5%;
+}
+
+main>div#box>span#ns4 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 54.5%;
+	top: 17.5%;
+}
+
+main>div#box>span#ns5 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 70.6%;
+	top: 17.5%;
+}
+
+main>div#box>span#ns6 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 86.6%;
+	top: 17.5%;
+}
+
+main>div#box>span#ns11 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 3%;
+	top: 53.5%;
+}
+
+main>div#box>span#ns12 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 20%;
+	top: 53.5%;
+}
+
+main>div#box>span#ns13 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 37%;
+	top: 53.5%;
+}
+
+main>div#box>span#ns14 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 54.5%;
+	top: 53.5%;
+}
+
+main>div#box>span#ns15 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 70.6%;
+	top: 53.5%;
+}
+
+main>div#box>span#ns16 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 86.6%;
+	top: 53.5%;
+}
+
+main>div#box>span#ns21 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 3%;
+	top: 84.5%;
+}
+
+main>div#box>span#ns22 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 20%;
+	top: 84.5%;
+}
+
+main>div#box>span#ns23 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 37%;
+	top: 84.5%;
+}
+
+main>div#box>span#ns24 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 54.5%;
+	top: 84.5%;
+}
+
+main>div#box>span#ns25 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 70.6%;
+	top: 84.5%;
+}
+
+main>div#box>span#ns26 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	left: 86.6%;
+	top: 84.5%;
+}
+
+
+
+
+main>div#box>a#b1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 3%;
+	top: 21%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b2 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 20%;
+	top: 21%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b3 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 37%;
+	top: 21%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b4 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 54.5%;
+	top: 21%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b5 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 70.6%;
+	top: 21%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b6 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 86.6%;
+	top: 21%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b11 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 3%;
+	top: 57%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b12 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 20%;
+	top: 57%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b13 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 37%;
+	top: 57%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b14 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 54.5%;
+	top: 57%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b15 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 70.6%;
+	top: 57%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b16 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 86.6%;
+	top: 57%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b21 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 3%;
+	top: 88%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b22 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 20%;
+	top: 88%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b23 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 37%;
+	top: 88%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b24 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 54.5%;
+	top: 88%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b25 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 70.6%;
+	top: 88%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b26 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	left: 86.6%;
+	top: 88%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1% 0.5% 1%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b1:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b2:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b3:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b4:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b5:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b6:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b11:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b12:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b13:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b14:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b15:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b16:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b21:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b22:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b23:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b24:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b25:hover {
+	background-color: #FFF;
+}
+
+main>div#box>a#b26:hover {
+	background-color: #FFF;
+}
+
+
+
+
+main>div#box>span#sm1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 10%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm2 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 27%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm3 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 44%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm4 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 61.5%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm5 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 77.6%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm6 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 93.6%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm11 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 10%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm12 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 27%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm13 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 44%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm14 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 61.5%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm15 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 77.6%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm16 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 93.6%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm21 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 10%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm22 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 27%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm23 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 44%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm24 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 61.5%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm25 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 77.6%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>span#sm26 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 93.6%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+
+main>div#box>s#ss1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 12.8%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss2 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 30.4%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss3 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 47.4%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss4 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 64.9%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss5 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 81%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss6 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 97%;
+	top: 21.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss11 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 13.4%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss12 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 30.4%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss13 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 47.4%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss14 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 64.9%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss15 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 81%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss16 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 97%;
+	top: 57.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss21 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 13.4%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss22 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 30.4%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss23 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 47.4%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss24 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 64.9%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss25 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 81%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss26 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 97%;
+	top: 88.7%;
+	font-weight: bold;
+}
+
+
+
+
+
+main>div#box2 {
+	position: relative;
+	text-align: center;
+	margin-top: 10%;
+	width: 75%;
+	margin-left: 12.5%;
+	/*background-color: rgba(0, 0, 0, 0.1);*/
+}
+
+main>div#box2>img {
+	width: 6%;
+	margin: 1% 13.5% 20% 13.5%;
+}
+
+main>div#box2>span {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFFF00;
+}
+
+main>div#box2>span#s1 {
+	left: 11.75%;
+	top: 15.5%;
+}
+
+main>div#box2>span#s2 {
+	left: 44.3%;
+	top: 15.5%;
+}
+
+main>div#box2>span#s3 {
+	left: 79.75%;
+	top: 15.5%;
+}
+
+main>div#box2>span#s4 {
+	left: 13.35%;
+	top: 65.5%;
+}
+
+main>div#box2>span#s5 {
+	left: 44.2%;
+	top: 65.5%;
+}
+
+main>div#box2>span#s6 {
+	left: 77.7%;
+	top: 65.5%;
+}
+
+main>div#box2>span#ss1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	top: 20%;
+	width: 25%;
+	left: 4%;
+}
+
+main>div#box2>span#ss2 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	top: 20%;
+	width: 25%;
+	left: 37.4%;
+}
+
+main>div#box2>span#ss3 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	top: 20%;
+	width: 25%;
+	left: 71%;
+}
+
+main>div#box2>span#ss4 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	top: 70%;
+	width: 25%;
+	left: 4.6%;
+}
+
+main>div#box2>span#ss5 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	top: 70%;
+	width: 25%;
+	left: 37.4%;
+}
+
+main>div#box2>span#ss6 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	top: 70%;
+	width: 25%;
+	left: 70.75%;
+}
+
+
+
+
+main>div#box3 {
+	position: relative;
+	margin-top: 10%;
+	margin-bottom: 100px;
+	width: 75%;
+	margin-left: 12.5%;
+}
+
+main>div#box3>span {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFFF00;
+	width: 80%;
+	margin-left: 10%;
+}
+
+main>div#box3>span>a {
+	color: #8B00FF;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+main>div#box3>span>a:hover {
+	color: #1B00FF;
+}
+
+main>div#b4 {
+	margin-top: 40%;
+
+}

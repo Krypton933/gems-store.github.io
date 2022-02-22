@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>GemsStore - Купить СПЕЦПАК для Brawl Stars</title>
+	<link rel='stylesheet' href='css/prod.css'>
+	<link rel='icon' href='img/logo.ico' type='image/x-icon'>
+	<link rel='shortcut icon' href='img/logo.ico' type='image/x-icon'>
+	<meta name="keywords" content="купить гемы бравл старс, купить гемы brawl stars, купить аккаунт бравл старс, купить аккаунт brawl stars,
+	купить легу бравл старс, купить легу brawl stars, brawl stars, бравл старс, магазин бравл старс, магазин brawl stars, купить леона, купить спайка бравл старс, brawl shop,
+	gems store, gems shop, supercell">
+</head>
+<body>
+
+	<header> 
+		<div id='head'> 
+			<span id='title'>GEMS STORE</span>
+
+			<a id='a1' href='index.html'>ГЛАВНАЯ</a>
+			<a id='a2' href='index.html#i1'>ГЕМЫ</a>
+			<a id='a3' href='index.html#i11'>ЛЕГЕНДЫ</a>
+			<a id='a4' href='index.html#i21'>АККАУНТЫ</a>
+			<a id='a5' href='reviews.html'>ОТЗЫВЫ</a>
+			<a id='a6' href='index.html#text'>О НАС</a>
+			<a id='a7' href='support.html'>ПОДДЕРЖКА</a>
+			<h1 id='key' style='color: rgba(0, 0, 0, 0)'>купить гемы бравл старс</h1>
+		</div>
+	</header>
+
+	<main> 
+		<div id='box'> 
+			<img src='img/acc6.png' id='i1'>
+
+			<span id='s1'>СПЕЦПАК</span>
+			<span id='ns1'>Аккаунт</span>
+
+			<input type='text' id='i4'>
+			<input type='text' id='i2'>
+			<input type='text' id='i3'>
+
+			<a id='b1' onclick="billid()">Купить 799&#8381;</a>
+			<span id='ns2'>*Имя</span>
+			<span id='ns3'>*Эл.Почта</span>
+			<span id='ns4'>*Промокод (если есть)</span>
+
+			<span id='ts1'>Ваш товар будет обработан и отправлен на указанную вами почту в течение 30 минут после оплаты
+			в рабочие часы (c 6:00 до 23:00 по Московскому времени).</span>
+		
+	</main>
+
+	<script> 
+		function billid() {
+        var result = '';
+        var words = '0123456789qwertyuiopasdfghjklzxcvbnm';
+        var max_position = words.length - 1;
+            for( i = 0; i < 12; ++i ) {
+                position = Math.floor ( Math.random() * max_position );
+                result = result + words.substring(position, position + 1);
+            }
+
+            let name = document.getElementById('i4').value
+			let mail = document.getElementById('i2').value
+			if(!!name) {
+				if(!!mail) {
+					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=799&billId='+ result +'&successUrl=https://gems-store.ru')
+				}
+
+				else {
+					document.getElementById('i2').style = 'background-color: #ff0000'
+					document.getElementById('i4').style = 'background-color: #fff'
+
+				}
+			} else if(!!mail) {
+				if(!!name) {
+					window.open('https://oplata.qiwi.com/create?publicKey=48e7qUxn9T7RyYE1MVZswX1FRSbE6iyCj2gCRwwF3Dnh5XrasNTx3BGPiMsyXQFNKQhvukniQG8RTVhYm3iPqpvgBwsp1uzwm2rJEGzcooNmT94DV8HNKxA9PNMRDzr3R5ZjFVvJ8s5JCuStmUttaxT6b1zNyDjZFkbmpq3EqrsHgFwS4k3nbiVsoEBjM&amount=799&billId='+ result +'&successUrl=https://gems-store.ru')
+				}
+				else {
+					document.getElementById('i4').style = 'background-color: #ff0000'
+					document.getElementById('i2').style = 'background-color: #fff'
+				}
+			}
+
+
+			else {
+				document.getElementById('i4').style = 'background-color: #ff0000' 
+				document.getElementById('i2').style = 'background-color: #ff0000'
+			}
+
+            
+        }
+	</script>
+
+</body>
+</html>

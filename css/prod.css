@@ -1,0 +1,230 @@
+@font-face {
+	font-family: 'lilita';
+	src: url("../fonts/LilitaOne-Regular.ttf");
+}
+
+@font-face {
+	font-family: 'cond';
+	src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+::-webkit-scrollbar-track {
+	background-color: #343434
+}
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 0px;
+	background-color: #141414;
+}
+::-webkit-scrollbar-thumb:hover{
+	background-color: #000;
+}
+::-webkit-scrollbar{ width: 6px; }
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	background-image: url('../img/background.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+}
+
+header {
+	width: 100%;
+	height: 1px;
+}
+
+header>div#head {
+	position: relative;
+	width: 75%;
+	margin-left: 12.5%;
+
+}
+
+header>div#head>span#title {
+	position: absolute;
+	margin-top: 2%;
+	font-family: 'lilita';
+	font-size: 1.5vw;
+	color: #FFFF00;
+}
+
+header>div#head>a {
+	position: absolute;
+	margin-top: 2.5%;
+	font-family: 'cond';
+	font-size: 0.9vw;
+	text-decoration: none;
+	color: #FFF;
+	transition: 0.15s linear;
+}
+
+header>div#head>a#a1 {
+	left: 18%;
+}
+
+header>div#head>a#a2 {
+	left: 25%;
+}
+
+header>div#head>a#a3 {
+	left: 31.4%;
+}
+
+header>div#head>a#a4 {
+	left: 39.6%;
+}
+
+header>div#head>a#a5 {
+	left: 48.5%;
+}
+
+header>div#head>a#a6 {
+	left: 56.2%;
+}
+
+header>div#head>a#a7 {
+	left: 92.5%;
+	color: #FFFF00;
+}
+
+header>div#head>a:hover {
+	color: #FFFF00;
+}
+
+header>div#head>a#a7:hover {
+	color: #FFF;
+}
+
+main>div#box {
+	position: relative;
+	margin-top: 10%;
+	width: 75%;
+	margin-left: 12.5%;
+	background-color: rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+main>div#box>img {
+	width: 12%;
+	margin: 2% 3% 30% -45%;
+}
+
+main>div#box>span#s1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFFF00;
+	top: 33%;
+	left: 20.25%;
+}
+
+main>div#box>span#ns1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #CCC;
+	top: 37%;
+	left: 20.25%;
+}
+
+main>div#box>span#ns2 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.7vw;
+	color: #CCC;
+	top: 5%;
+	left: 40%;
+}
+
+main>div#box>span#ns3 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.7vw;
+	color: #CCC;
+	top: 15%;
+	left: 40%;
+}
+
+main>div#box>span#ns4 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.7vw;
+	color: #CCC;
+	top: 32%;
+	left: 40%;
+}
+
+main>div#box>a#b1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #000;
+	top: 33.5%;
+	left: 50%;
+	text-decoration: none;
+	background-color: #FFFF00;
+	padding: 0.5% 1.875% 0.5% 1.875%;
+	transition: 0.15s linear;
+}
+
+main>div#box>a#b1:hover {
+	background-color: #FFF;
+}
+
+main>div#box>span#sm1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFF;
+	left: 10%;
+	top: 50.7%;
+	font-weight: bold;
+}
+
+main>div#box>s#ss1 {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.65vw;
+	color: #CCC;
+	left: 12.8%;
+	top: 50.7%;
+	font-weight: bold;
+}
+
+main>div#box>input {
+	position: absolute;
+	font-family: 'cond';
+	font-size: 0.8vw;
+	color: #000;
+	top: 8%;
+	left: 40%;
+	background-color: #FFF;
+	width: 20.75%;
+	padding: 0.3% 0 0.3% 0;
+	transition: 0.15s linear;
+	border: none;
+}
+
+main>div#box>input#i2 {
+	top: 18%;
+}
+
+main>div#box>input#i3 {
+	top: 35.2%;
+	width: 9%;
+}
+
+main>div#box>span#ts1 {
+	position: absolute;
+	width: 70%;
+	font-family: 'cond';
+	font-size: 1vw;
+	color: #FFFF00;
+	top: 70%;
+	left: 15%;
+}
